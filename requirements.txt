@@ -1,7 +1,7 @@
 # --- Core Telegram & Voice Call ---
 pyrogram==2.0.106
 tgcrypto==1.2.5
-pytgcalls==0.0.33
+ntgcalls==0.9.7
 
 # --- Environment & Config ---
 python-dotenv==1.0.1

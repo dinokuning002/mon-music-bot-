@@ -1,20 +1,27 @@
-pyrogram
-tgcrypto
-pytgcalls[pyrogram]
-python-dotenv
-youtube_dl
-youtube_search_python
-requests
-aiohttp
-aiofiles
-asyncio
-youtube_search
-search_engine_parser
-ffmpeg-python
-pillow
-python-arq
-future
-psutil
-wget
-tswift
-regex
+# --- Core Telegram & Voice Call ---
+pyrogram==2.0.106
+tgcrypto==1.2.5
+pytgcalls==0.0.33
+
+# --- Environment & Config ---
+python-dotenv==1.0.1
+
+# --- YouTube & Media ---
+youtube_dl==2021.12.17
+youtube_search_python==1.6.6
+youtube_search==2.1.2
+search_engine_parser==0.6.6
+ffmpeg-python==0.2.0
+pillow==10.2.0
+tswift==0.7.0
+regex==2024.5.15
+
+# --- Async & Utils ---
+aiohttp==3.9.3
+aiofiles==23.2.1
+asyncio==3.4.3
+requests==2.31.0
+future==0.18.3
+psutil==5.9.8
+wget==3.2
+python-arq==6.0.1
